@@ -95,6 +95,13 @@ body {
     border: none;
 }
 
+
+/* styles for about me section */
+span a, span a:hover{
+    color:rgb(33, 33, 35);
+    text-decoration: none;
+    border-bottom: 2px solid var(--grayishblue);
+}
 /* specific style for portfolio-3 card */
 .card img.port-3 {
     height: 100%;
