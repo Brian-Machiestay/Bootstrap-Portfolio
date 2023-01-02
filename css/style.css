@@ -1,6 +1,38 @@
+:root {
+    --grayishblue: rgb(71, 184, 196);
+  }
 body {
     width: 100%;
 }
+
+/* navigation styles */
+.nav {
+    background-color: rgb(33, 33, 35);
+    height: 60px;
+}
+.name_logo {
+    color: black;
+    vertical-align: center;
+}
+
+.nav-item {
+    margin: auto 0;
+}
+.name {
+    margin-right: auto;
+    margin-top: 0;
+    background-color: var(--grayishblue);
+    height: 90%;
+}
+
+.nav-item .nav-link {
+    color: var(--grayishblue);
+    padding: 0;
+    margin: 10px;
+    border-bottom: 2px solid var(--grayishblue);
+}
+
+
 .row {
     width: 100%;
 }
