@@ -3,6 +3,11 @@
   }
 body {
     width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    background-color: whitesmoke;
 }
 
 /* navigation styles */
@@ -13,6 +18,8 @@ body {
 .name_logo {
     color: black;
     vertical-align: center;
+    font-weight: bold;
+    padding-left: 30px;
 }
 
 .nav-item {
@@ -22,7 +29,7 @@ body {
     margin-right: auto;
     margin-top: 0;
     background-color: var(--grayishblue);
-    height: 90%;
+    height: 80%;
 }
 
 .nav-item .nav-link {
@@ -45,6 +52,7 @@ body {
 }
 .jumbotron .container h4 {
     background-color: var(--grayishblue);
+    font-weight: bold;
 }
 
 /* main section styles */
@@ -52,10 +60,11 @@ body {
     width: 30%;
     margin-left: auto;
     padding-right: 100px;
+    font-weight: bold;
 }
 
 .row .sectcontainer {
-    border-right: 2px solid black;
+    border-right: 3px solid black;
 
 }
 
