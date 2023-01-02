@@ -40,14 +40,14 @@ body {
 }
 
 .jumbotron .container {
-    background-color: var(--grayishblue);
     margin-left: 70%;
     margin-top: 40px;
 }
 .jumbotron .container h4 {
-
+    background-color: var(--grayishblue);
 }
-    
+
+/* main section styles */
 .row {
     width: 100%;
 }
