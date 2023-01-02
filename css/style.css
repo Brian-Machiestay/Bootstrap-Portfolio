@@ -71,10 +71,20 @@ body {
 .row {
     margin-bottom: 40px;
 }
-/* About Me Section */
-
-
 
 .row {
     width: 100%;
+}
+
+.card {
+    width: 100%;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+.card:hover {
+    opacity: 1;
+}
+
+.card img {
+    height: 60vh;
 }
