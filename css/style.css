@@ -48,7 +48,20 @@ body {
 }
 
 /* main section styles */
+.row div .sectP {
+    width: 30%;
+    margin-left: auto;
+    padding-right: 100px;
+}
 
+.row .sectcontainer {
+    border-right: 2px solid black;
+
+}
+
+.row {
+    margin-bottom: 40px;
+}
 /* About Me Section */
 
 
